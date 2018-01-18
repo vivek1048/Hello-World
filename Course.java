@@ -82,29 +82,7 @@ public class Course
       return hours;
    }
 
-/**
-  * Returns the letter grade corresponding to the grade earned.
-  * @return char - the letter grade corresponding to the grade earned.
-  */   
-  
-   public char getLgrade()
-   {
-      char letterGrade = ' ';
-      int grade = getGrade();
-      
-      if (grade == 4)
-         letterGrade = 'A';
-      else if (grade == 3)
-         letterGrade = 'B';
-      else if (grade == 2)
-         letterGrade = 'C';
-      else if (grade == 1)
-         letterGrade = 'D';
-      else
-         letterGrade = 'F';
-   
-      return letterGrade;
-   }
+
 
  /**
    * Returns course information containing prefix, number, title and letter grade.
